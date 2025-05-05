@@ -1,0 +1,209 @@
+* {
+    margin: 10;
+    padding: 0;
+}
+
+.Testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 900px;
+    height: 260px;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.top-aj {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+
+.AJ {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.AJ::after {
+    content: "";
+    position: absolute;
+    bottom: -9px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+}
+
+.AJ_avatar {
+    display: flex;
+    width: 250px;
+    height: 100px; 
+    color: black;
+    margin-top: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.with {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.AJ2 {
+    width: 250px;
+    height: 210px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.AJ_avatar2 {
+    display: flex;
+    width: 250px;
+    height: 100px; 
+    color: black;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar2 {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    flex-shrink: 0;
+}
+
+.with2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.midl-testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 260px;
+    gap: 1.5rem;
+}
+
+.avatar-Jackie-Mackle img {
+    display: flex;
+    border-radius: 20px;
+    width: 225px;
+    height: 233.4px;
+    display: flex;
+}
+
+.Jackie-Mackle {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 328.6px;
+    height: 233.4px;
+    border-radius: 20px;
+    color: white;
+}
+
+.stars {
+    color: gold;
+    font-size: 30px;
+}
+
+.JM {
+    color: white;
+    font-size: 30px;
+}
+
+.EM {
+    color: grey;
+    font-size: 15px;
+}
+
+.last-testimonial-off{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.last-testimonial {
+    display: flex;
+    border-radius: 20px;
+    border: solid 2px black;
+    width: 575.5px;
+    height: 260px;
+}
+
+.padding {
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.testimonial-carousel {
+    margin-top: 15px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .avatars-block {
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0.4;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .avatar.active {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  
+  .arrow {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 10px;
+    user-select: none;
+    color: #333;
+  }
+  
+  .name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
